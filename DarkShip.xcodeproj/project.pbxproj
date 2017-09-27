@@ -28,6 +28,7 @@
 		114B96401F7BEDE4008DB1A8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		114B96431F7BEDE4008DB1A8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		114B96451F7BEDE4008DB1A8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		114B964F1F7BF499008DB1A8 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background.png; path = ../../background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +67,7 @@
 				114B96391F7BEDE4008DB1A8 /* GameScene.swift */,
 				114B963B1F7BEDE4008DB1A8 /* GameViewController.swift */,
 				114B963D1F7BEDE4008DB1A8 /* Main.storyboard */,
+				114B964F1F7BF499008DB1A8 /* background.png */,
 				114B96401F7BEDE4008DB1A8 /* Assets.xcassets */,
 				114B96421F7BEDE4008DB1A8 /* LaunchScreen.storyboard */,
 				114B96451F7BEDE4008DB1A8 /* Info.plist */,
@@ -293,7 +295,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = home.DarkShip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -308,7 +310,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = home.DarkShip;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
